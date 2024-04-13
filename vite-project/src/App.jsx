@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import About from "./components/About";
 import Contactus from "./components/myModule/Contactus";
+import Myforms from "./components/Myforms";
 import List from "./components/List";
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
        <About name={name}/>
         {count>5 && <Contactus/> }
       <List/>  
+      <Myforms/>
     </>
   );
 }
