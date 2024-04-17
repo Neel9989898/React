@@ -49,14 +49,16 @@ const Sips = () => {
   return (
     <div>
       Exercise-1:
-      <div style={{ backgroundColor: "black", color: "#00ff00", width:"150px" }}>
+      <br />
+      <div style={{ backgroundColor: "black", color: "#00ff00", width:"150px",borderRadius:"8%" }}>
         <div style={{fontSize:"14px"}}>{day}</div>
         <div style={{display: "flex", flexDirection:"row", marginTop:"-15px", marginBottom:"-10px" ,alignItems:"center",justifyContent:"center"}}>
             <div style={{
             fontWeight: "bold",
             fontSize: "50px",
             color: "#00ff00",
-            textShadow: " 0 0 5px #00ff00,0 0 10px #00ff00",
+            textShadow: " 0 0 5px #00ff00",
+            
           }}>{time}</div>
           
           <div style={{display: "flex", alignItems:"center",justifyContent:"center", flexDirection:"column", fontSize:"14px"}}>
